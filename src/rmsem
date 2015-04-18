@@ -1,0 +1,12 @@
+#!/bin/tcsh
+    
+echo "input start sem number (input int) "
+set startsem = $<
+echo "input number of semaphores"
+set count = $<
+
+while ( $startsem <= $startsem+$count)
+  echo -n "ipcrm -s $startsem"
+  exec("ipcrm -s $startsem")
+  @startsem ++
+end

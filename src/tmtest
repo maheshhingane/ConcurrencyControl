@@ -1,0 +1,27 @@
+#!/bin/tcsh
+
+#echo "loop n times (input int) "
+if ( $# != 2 ) then
+ echo "Usage: tmtest loopcount filename(without  extension)"
+ exit
+endif
+
+set loop = $1
+#echo "Type input file name (without ext)"
+set infile = $2
+\rm $infile.out
+\rm $infile.log
+echo "Input file used:   $infile.txt"
+echo "Output written to: $infile.out"
+echo "log file name:     $infile.log"
+echo "running zgt_test $loop times"
+echo "----------------------------"
+set count = 0
+while ( $count < $loop)
+	echo -n $count
+	echo -n $count >> $infile.out
+	echo ""
+	./zgt_test $infile.txt >> $infile.out
+	@ count ++
+end
+echo  "----------------------------"

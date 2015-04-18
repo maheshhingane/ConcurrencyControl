@@ -1,0 +1,8400 @@
+0// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+1// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+2// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+3// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+4// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+5// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+6// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+7// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+8// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+9// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+10// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+11// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+12// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+13// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+14// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+15// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+16// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+17// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+18// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+19// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+leaving TxCommit
+
+20// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+21// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+22// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+23// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+24// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+25// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+26// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+27// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+28// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+29// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+30// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+31// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+32// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+33// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+34// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+35// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+36// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+37// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+38// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+39// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+40// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+41// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+42// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+43// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+44// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+45// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+46// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+47// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+48// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+49// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+50// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+51// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+52// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+leaving TxRead
+commit  2
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+53// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+54// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+55// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+56// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+57// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+58// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+59// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+60// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+61// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+62// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+63// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+64// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+65// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+66// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+67// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+68// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+69// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+70// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+71// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+72// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+73// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+74// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+75// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+76// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+77// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+78// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+79// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+80// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+81// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+82// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+83// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+84// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+85// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+86// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+87// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+88// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+89// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+90// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+91// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+92// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+93// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+94// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+95// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+96// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+97// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+98// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+99// serial history
+// serial history
+// 2 transactions
+// 2 transactions
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log S2T.log
+Log file name:S2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+commit 1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+begintx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+read    2 5
+Read : 2 : 5
+
+
+entering TxRead
+
+leaving TxRead
+read    2 6
+Read : 2 : 6
+
+
+entering TxRead
+
+leaving TxRead
+commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:6 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:S removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed

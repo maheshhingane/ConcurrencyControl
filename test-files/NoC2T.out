@@ -1,0 +1,11300 @@
+0// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+1// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+2// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+3// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+4// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+5// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+6// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+7// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+8// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+9// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+10// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+11// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+12// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+13// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+14// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+15// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+16// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+17// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+18// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+19// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+20// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+21// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+22// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+23// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+24// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+25// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+26// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+27// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+28// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+29// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+30// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+31// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+32// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+33// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+34// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+35// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+36// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+37// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+38// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+39// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+40// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+41// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+42// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+43// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+Commit  1
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+44// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+45// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+46// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+47// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+48// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+49// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+50// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+51// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+52// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+53// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+54// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+55// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+56// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+57// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+58// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+59// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+60// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+61// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+62// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+63// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+64// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+65// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+66// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+67// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+68// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+69// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+70// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+71// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+72// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+73// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+74// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+75// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+76// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+77// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+78// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+79// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+80// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+81// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+leaving TxCommit
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+82// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+83// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+84// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+85// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+86// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+87// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+88// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+89// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+90// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+91// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+92// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+93// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+94// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+95// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+96// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+97// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+98// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
+99// serializable history
+// serializable history
+// 2 transactions (no conflicts)
+conflicts)
+// same object accessed
+// same object accessed
+// multiple times
+// multiple times
+Log NoC2T.log
+Log file name:NoC2T.log
+
+leaving openlog
+BeginTx 1
+BeginTx : 1
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    1 1
+Read : 1 : 1
+
+
+entering TxRead
+
+leaving TxRead
+Read    1 2
+Read : 1 : 2
+
+
+entering TxRead
+
+leaving TxRead
+BeginTx 2
+BeginTx : 2
+
+
+entering BeginTx
+
+leaving BeginTx
+Read    2 8
+Read : 2 : 8
+
+
+entering TxRead
+
+leaving TxRead
+Read    2 7
+Read : 2 : 7
+
+
+entering TxRead
+
+leaving TxRead
+Write   2 6
+Write : 2 : 6
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   2 5
+Write : 2 : 5
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  2
+Commit : 2
+
+
+entering TxCommit
+
+leaving TxCommit
+Write   1 3
+Write : 1 : 3
+
+
+entering TxWrite
+
+leaving TxWrite
+Write   1 4
+Write : 1 : 4
+
+
+entering TxWrite
+
+leaving TxWrite
+Commit  1
+Commit : 1
+
+
+entering TxCommit
+
+leaving TxCommit
+
+
+:::Hash node with Tid:1, obno:4 lockmode:X removed
+
+:::Hash node with Tid:1, obno:3 lockmode:X removed
+
+:::Hash node with Tid:1, obno:2 lockmode:S removed
+
+:::Hash node with Tid:1, obno:1 lockmode:S removed
+
+:::Hash node with Tid:2, obno:5 lockmode:X removed
+
+:::Hash node with Tid:2, obno:6 lockmode:X removed
+
+:::Hash node with Tid:2, obno:7 lockmode:S removed
+
+:::Hash node with Tid:2, obno:8 lockmode:S removed
